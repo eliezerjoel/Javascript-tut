@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <h1 id="heading1">Introduction to javascript</h1>
+    <button type="button" onclick="document.getElementById('heading1').innerHTML='Welcome to JS'">Click to change heading</button>
+    <button onclick="document.getElementById('heading1').innerHTML='Introduction to Javascript'">Rename to previous</button>
+    
+    <div class="row">
+        <div class="col bg-success text-light">
+            <h3 id="col1">Column one</h3>
+            <button onclick="document.getElementById('col1').innerHTML='Col one changed'">Change col head</button>
+            <button onclick="document.getElementById('col1').innerHTML='Column one'">Return col head</button>
+        </div>
+        <div class="col"></div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
